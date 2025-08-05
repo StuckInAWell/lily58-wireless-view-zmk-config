@@ -42,11 +42,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &kp KP_NUMLOCK   &kp KP_CLEAR     &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &kp BACKSPACE
-&trans      &trans        &trans        &kp UP        &trans        &kp C_VOLUME_UP                          &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &trans
-&trans      &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOLUME_DOWN                        &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &trans
-&trans      &trans        &trans        &trans        &trans        &kp C_MUTE         &trans    &kp K_CALC  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans
-                                        &trans        &trans        &trans             &trans    &trans      &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT
+&bt BT_CLR            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &kp KP_NUMLOCK   &kp KP_CLEAR     &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS  &kp BACKSPACE
+&kp C_BRIGHTNESS_INC  &trans        &trans        &kp UP        &trans        &kp C_VOLUME_UP                          &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS   &trans
+&kp C_BRIGHTNESS_DEC  &trans        &kp LEFT      &kp DOWN      &kp RIGHT     &kp C_VOLUME_DOWN                        &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ENTER  &trans
+&trans                &trans        &trans        &trans        &trans        &kp C_MUTE         &trans    &kp K_CALC  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER  &trans
+                                                  &trans        &trans        &trans             &trans    &trans      &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
